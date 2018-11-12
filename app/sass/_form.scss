@@ -1,0 +1,220 @@
+
+// информация по оплате начало
+
+.pay-info {
+  padding-top: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 25px;
+}
+
+.pay-info__title {
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.pay-info__row {
+  padding-bottom: 5px;
+}
+
+.pay-info__caption {
+  display: inline-block;
+  width: 160px;
+}
+
+.pay-info__info {
+  color: #000000;
+}
+// информация по оплате конец
+
+
+//данные по карте начало
+
+.form {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+}
+
+.title-h2 {
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #383d43;
+}
+
+.form__title {
+  padding-bottom: 20px;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 350px;
+  min-height: 235px;
+  border: 1px solid rgba(0, 0, 0, 0.1); //#8494ab;
+  border-radius: 10px;
+  padding: 15px;
+  padding-top: 20px;
+  background-color: #f7f8f8;
+}
+
+.card-face {
+  position: relative;
+  z-index: 10;
+}
+
+.card-wrapper {
+  padding-top: 10px;
+}
+
+.card-number {
+  display: block;
+}
+
+.card-number__field {
+  width: 65px;
+  margin-right: 5px;
+}
+
+.card-date {
+  padding-top: 10px;
+}
+
+.card-date__month {
+  margin-right: 5px;
+}
+
+.card-holder {
+  padding-top: 15px;
+}
+
+.card-holder__field {
+  width: 100%;
+}
+
+input,
+select {
+  padding: 9px 13px;
+  box-sizing: border-box;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  &::placeholder {
+    color: #bec6cf;
+  }
+  &:focus {
+    outline: 2px solid #00aeef;
+  }
+}
+
+select {
+  padding-right: 30px;
+  -webkit-appearance: none;
+  background-image: url('../img/arrow.png');
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none!important;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.card-back {
+  position: absolute;
+  top: 70px;
+  left: 225px;
+  right: 47px;
+  z-index: 5;
+  padding-top: 25px;
+  padding-left: 0;
+  padding-right: 0;
+  &::after {
+    display: block;
+    content: '';
+    top: -50px;
+    width: 100%;
+    height: 50px;
+    background-color: #e4e9ee;
+  }
+}
+
+.card-cvv2 {
+  position: relative;
+  height: 0;
+}
+
+.card-cvv2 label {
+  position: relative;
+  top: 50px;
+  left: 190px;
+}
+
+.card-cvv__field {
+  position: relative;
+  top: 80px;
+  right: -60px;
+  width: 140px;
+  padding-right: 40px;
+  padding-left: 20px;
+  background-image: url("../img/tip.png");
+  background-position: 100px center;
+  background-repeat: no-repeat;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.form input:required:valid {
+  border-color: #B1DB37;
+}
+
+
+.button {
+  padding: 10px 50px;
+  border: none;
+  background: #88b700;
+  background:
+      linear-gradient(top, #a4c800, #88b700);
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  &:hover {
+    color: #8494ab;
+    background: #B1DB37;
+    background:
+        linear-gradient(top, #C4E339, #B1DB37);
+  }
+  &:focus {
+    box-shadow: 0 0 1px 3px #c0eb22;
+    outline: none;
+  }
+
+}
+
+.button-form {
+  padding-top: 40px;
+}
+
+
+.error {
+  border-color: red!important;
+}
+
+
+//данные по карте конец

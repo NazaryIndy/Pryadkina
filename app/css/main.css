@@ -1,0 +1,475 @@
+@font-face {
+  src: url(../fonts/OpenSans-Bold.ttf);
+  font-family: "Open Sans"; }
+
+body, h1, h2, h3, input, ul, li, fieldset, p {
+  margin: 0; }
+
+body {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 16px;
+  color: #535864;
+  background-color: #101114; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+fieldset {
+  padding: 0;
+  border: 0; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  min-width: 320px;
+  max-width: 960px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-top: 85px;
+  padding-bottom: 80px;
+  margin: 0 auto; }
+
+.wrapper {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  background-color: #f7f8f8;
+  color: #8494ab;
+  font-size: 16px;
+  line-height: 21px; }
+
+.header {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  background-color: #00aeef;
+  color: #193945; }
+
+.main-title {
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 700; }
+
+.header__title {
+  padding-bottom: 12px; }
+
+.subtitle {
+  font-size: 14px; }
+
+.navigation {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-width: 320px;
+  background-color: #1f2229;
+  font-weight: 700; }
+
+.logo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 160px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-left: 30px; }
+  .logo:hover {
+    background-color: #2a2d37; }
+  .logo:focus {
+    outline: 2px solid #00aeef; }
+
+.logo-white {
+  background-color: #fff;
+  color: #1f2229;
+  padding: 7px; }
+
+.logo-dark {
+  padding: 7px;
+  color: #ffffff; }
+
+.menu-link {
+  display: block;
+  padding: 25px 30px;
+  color: #ffffff; }
+  .menu-link:hover {
+    color: #808592;
+    background-color: #2a2d37; }
+  .menu-link:focus {
+    outline: 2px solid #00aeef; }
+
+.menu-link--active {
+  color: #808592;
+  background-color: #2a2d37; }
+  .menu-link--active:hover {
+    color: #808592;
+    background-color: #2a2d37; }
+
+.user-menu-link {
+  color: #808592;
+  background-color: #191c24; }
+
+.pay-info {
+  padding-top: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 25px; }
+
+.pay-info__title {
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px; }
+
+.pay-info__row {
+  padding-bottom: 5px; }
+
+.pay-info__caption {
+  display: inline-block;
+  width: 160px; }
+
+.pay-info__info {
+  color: #000000; }
+
+.form {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px; }
+
+.title-h2 {
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: 700;
+  color: #383d43; }
+
+.form__title {
+  padding-bottom: 20px; }
+
+.card {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 350px;
+  min-height: 235px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  padding: 15px;
+  padding-top: 20px;
+  background-color: #f7f8f8; }
+
+.card-face {
+  position: relative;
+  z-index: 10; }
+
+.card-wrapper {
+  padding-top: 10px; }
+
+.card-number {
+  display: block; }
+
+.card-number__field {
+  width: 65px;
+  margin-right: 5px; }
+
+.card-date {
+  padding-top: 10px; }
+
+.card-date__month {
+  margin-right: 5px; }
+
+.card-holder {
+  padding-top: 15px; }
+
+.card-holder__field {
+  width: 100%; }
+
+input,
+select {
+  padding: 9px 13px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1); }
+  input::-webkit-input-placeholder,
+  select::-webkit-input-placeholder {
+    color: #bec6cf; }
+  input::-moz-placeholder,
+  select::-moz-placeholder {
+    color: #bec6cf; }
+  input:-ms-input-placeholder,
+  select:-ms-input-placeholder {
+    color: #bec6cf; }
+  input::-ms-input-placeholder,
+  select::-ms-input-placeholder {
+    color: #bec6cf; }
+  input::placeholder,
+  select::placeholder {
+    color: #bec6cf; }
+  input:focus,
+  select:focus {
+    outline: 2px solid #00aeef; }
+
+select {
+  padding-right: 30px;
+  -webkit-appearance: none;
+  background-image: url("../img/arrow.png");
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  -o-text-overflow: '';
+     text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none !important; }
+
+select::-ms-expand {
+  display: none; }
+
+.card-back {
+  position: absolute;
+  top: 70px;
+  left: 225px;
+  right: 47px;
+  z-index: 5;
+  padding-top: 25px;
+  padding-left: 0;
+  padding-right: 0; }
+  .card-back::after {
+    display: block;
+    content: '';
+    top: -50px;
+    width: 100%;
+    height: 50px;
+    background-color: #e4e9ee; }
+
+.card-cvv2 {
+  position: relative;
+  height: 0; }
+
+.card-cvv2 label {
+  position: relative;
+  top: 50px;
+  left: 190px; }
+
+.card-cvv__field {
+  position: relative;
+  top: 80px;
+  right: -60px;
+  width: 140px;
+  padding-right: 40px;
+  padding-left: 20px;
+  background-image: url("../img/tip.png");
+  background-position: 100px center;
+  background-repeat: no-repeat; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+input[type='number'] {
+  -moz-appearance: textfield; }
+
+.form input:required:valid {
+  border-color: #B1DB37; }
+
+.button {
+  padding: 10px 50px;
+  border: none;
+  background: #88b700;
+  background: -webkit-gradient(linear, left top, left bottom, from(#a4c800), to(#88b700));
+  background: -webkit-linear-gradient(top, #a4c800, #88b700);
+  background: -o-linear-gradient(top, #a4c800, #88b700);
+  background: linear-gradient(top, #a4c800, #88b700);
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700; }
+  .button:hover {
+    color: #8494ab;
+    background: #B1DB37;
+    background: -webkit-gradient(linear, left top, left bottom, from(#C4E339), to(#B1DB37));
+    background: -webkit-linear-gradient(top, #C4E339, #B1DB37);
+    background: -o-linear-gradient(top, #C4E339, #B1DB37);
+    background: linear-gradient(top, #C4E339, #B1DB37); }
+  .button:focus {
+    -webkit-box-shadow: 0 0 1px 3px #c0eb22;
+            box-shadow: 0 0 1px 3px #c0eb22;
+    outline: none; }
+
+.button-form {
+  padding-top: 40px; }
+
+.error {
+  border-color: red !important; }
+
+.footer {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #373c43; }
+
+.description {
+  font-size: 12px;
+  line-height: 18px;
+  color: #7f8591; }
+
+.footer__description {
+  padding-bottom: 10px; }
+
+@media (max-width: 320px) {
+  .navigation,
+  .main,
+  .container,
+  .wrapper {
+    width: 100%; }
+  .main-title {
+    font-size: 24px;
+    line-height: 28px; }
+  .container,
+  .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .main,
+  .form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .card {
+    position: static;
+    width: 280px; }
+  .card-cvv2,
+  .card-cvv2 label,
+  .card-cvv__field {
+    position: static;
+    display: block; }
+  .card-cvv2 label {
+    margin-top: 70px;
+    margin-left: 20px; }
+  .card-cvv__field {
+    margin-left: 20px; } }
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .navigation,
+  .main,
+  .container,
+  .wrapper {
+    width: 100%; }
+  .main-title {
+    font-size: 24px;
+    line-height: 28px; }
+  .container,
+  .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .main,
+  .form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .card {
+    width: 100%;
+    max-width: 350px;
+    position: static; }
+  .card-cvv2,
+  .card-cvv2 label,
+  .card-cvv__field {
+    position: static;
+    display: block; }
+  .card-cvv2 label {
+    margin-top: 70px;
+    margin-left: 20px; }
+  .card-cvv__field {
+    margin-left: 20px; } }
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .navigation,
+  .main,
+  .container,
+  .wrapper {
+    width: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .main-title {
+    font-size: 24px;
+    line-height: 28px; }
+  .container,
+  .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .main,
+  .form {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .card-back {
+    position: static; } }
+
+@media (min-width: 769px) and (max-width: 918px) {
+  .navigation,
+  .main,
+  .container,
+  .wrapper {
+    width: 100%; }
+  .card-back {
+    position: static; } }

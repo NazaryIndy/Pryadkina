@@ -1,0 +1,140 @@
+
+@media (max-width: 320px) {
+  .navigation,
+  .main,
+  .container,
+  .wrapper {
+    width: 100%;
+  }
+
+  .main-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .container,
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .main,
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    position: static;
+    width: 280px;
+  }
+
+  .card-cvv2,
+  .card-cvv2 label,
+  .card-cvv__field {
+    position: static;
+    display: block;
+  }
+
+  .card-cvv2 label {
+    margin-top: 70px;
+    margin-left: 20px;
+  }
+
+  .card-cvv__field {
+    margin-left: 20px;
+  }
+}
+
+
+@media (min-width:321px) and (max-width: 480px) {
+  .navigation,
+  .main,
+  .container,
+  .wrapper {
+    width: 100%;
+  }
+
+  .main-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .container,
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .main,
+  .form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 350px;
+    position: static;
+  }
+
+  .card-cvv2,
+  .card-cvv2 label,
+  .card-cvv__field {
+    position: static;
+    display: block;
+  }
+
+  .card-cvv2 label {
+    margin-top: 70px;
+    margin-left: 20px;
+  }
+
+  .card-cvv__field {
+    margin-left: 20px;
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .navigation,
+  .main,
+  .container,
+  .wrapper {
+    width: 100%;
+    align-items: center;
+  }
+
+  .main-title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .container,
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .main,
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .card-back {
+    position: static;
+  }
+
+}
+
+@media (min-width: 769px) and (max-width: 918px) {
+  .navigation,
+  .main,
+  .container,
+  .wrapper {
+    width: 100%;
+  }
+
+  .card-back {
+    position: static;
+  }
+}

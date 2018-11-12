@@ -1,0 +1,66 @@
+// боковое меню начало
+
+.navigation {
+  box-sizing: border-box;
+  min-width: 320px;
+  background-color: #1f2229;
+
+  font-weight: 700;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  min-height: 160px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-left: 30px;
+
+  &:hover {
+    background-color: #2a2d37;
+  }
+  &:focus {
+    outline: 2px solid #00aeef;
+  }
+}
+
+.logo-white {
+  background-color: #fff;
+  color: #1f2229;
+  padding: 7px;
+}
+
+.logo-dark {
+  padding: 7px;
+  color: #ffffff;
+}
+
+.menu-link {
+  display: block;
+  padding: 25px 30px;
+  color: #ffffff;
+  &:hover {
+    color: #808592;
+    background-color: #2a2d37;
+  }
+  &:focus {
+    outline: 2px solid #00aeef;
+  }
+}
+
+.menu-link--active {
+  color: #808592;
+  background-color: #2a2d37;
+  &:hover {
+    color: #808592;
+    background-color: #2a2d37;
+  }
+}
+
+.user-menu-link {
+  color: #808592;
+  background-color: #191c24;
+}
+
+// боковое меню конец

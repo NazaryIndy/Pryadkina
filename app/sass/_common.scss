@@ -1,0 +1,52 @@
+@font-face {
+  src: url(../fonts/OpenSans-Bold.ttf);
+  font-family: "Open Sans";
+}
+
+body, h1, h2, h3, input, ul, li, fieldset, p {
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 16px;
+  color: #535864;
+  background-color: #101114;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+fieldset {
+  padding: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 960px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding-top: 85px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #f7f8f8;
+  color: #8494ab;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+

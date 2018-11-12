@@ -1,0 +1,27 @@
+// шапка начало
+
+.header {
+  box-sizing: border-box;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  background-color: #00aeef;
+  color: #193945;
+}
+
+.main-title {
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: 700;
+}
+
+.header__title {
+  padding-bottom: 12px;
+}
+
+.subtitle {
+  font-size: 14px;
+}
+
+// шапка конец
